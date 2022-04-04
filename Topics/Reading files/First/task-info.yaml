@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# read test_file.txt'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8143#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 7, in <module>
+        data = open("F:\Downloads\hyperskill-dataset-46698466.txt", 'r')
+    FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Downloads\\hyperskill-dataset-46698466.txt'
+  time: Tue, 12 Oct 2021 03:55:56 UTC
+record: -1
